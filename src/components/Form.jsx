@@ -1,11 +1,10 @@
 function Form() {
     return (
         <form>
-            <section>1</section>
-            <section>2</section>
-            <section>3</section>
-            <section>4</section>
-            <section>5</section>
+            <section>general info</section>
+            <section>education</section>
+            <section>work experience</section>
+            <section>personal projects</section>
             <section>submit</section>
         </form>
     )
