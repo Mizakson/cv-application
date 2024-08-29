@@ -103,3 +103,7 @@ input {
 #study-date {
     margin-left: 4.5%;
 }
+
+fieldset {
+    border-style: none;
+}
