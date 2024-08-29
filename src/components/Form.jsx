@@ -17,7 +17,7 @@ function Form() {
                 </fieldset>
             </section>
             <section>
-                <p className="education">Education</p>
+                <p className="section-title">Education</p>
                 <fieldset className="input-field">
                     <label htmlFor="school-name">School: </label>
                     <input type="text" name="school-name" id="school-name" placeholder="Stanford University"/>
@@ -31,7 +31,21 @@ function Form() {
                     <input type="text" name="study-date" id="study-date" placeholder="AUG 2008 - MAY 2012"/>
                 </fieldset>
             </section>
-            <section></section>
+            <section>
+                <p className="section-title">Experience</p>
+                <fieldset className="input-field">
+                    <label htmlFor="company">Company: </label>
+                    <input type="text" name="company" id="company"/>
+                </fieldset>
+                <fieldset className="input-field">
+                    <label htmlFor="responsibilities">Responsibilites: </label>
+                    <textarea name="responsibilites" id="responsibilities" maxLength={100} placeholder="Oversaw testing of compound XYZ..."></textarea>
+                </fieldset>
+                <fieldset className="input-field">
+                    <label htmlFor="work-date">Date: </label>
+                    <input type="text" name="work-date" id="work-date" placeholder="MAR 2020 - PRESENT"/>
+                </fieldset>
+            </section>
             <button type="submit">Submit</button>
         </form>
     )
