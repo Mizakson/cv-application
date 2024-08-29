@@ -1,6 +1,5 @@
 body {
-    padding: 2.5%;
-    margin-left: 15%;
+    margin-left: 10%;
     display: flex;
 }
 
@@ -35,7 +34,34 @@ form {
 
 form > section {
     text-align: center;
-    border: 1px dashed black;
+    border: 1px solid black;
+    border-radius: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
     width: 400px;
-    padding: 5%;
+    /* padding: 5%; */
+}
+
+.form-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 5%;
+    padding-bottom: 2.5%;
+}
+
+.form-top > button {
+    margin-left: 35%;
+}
+
+.form-title {
+    font-style: italic;
+}
+
+.form-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
