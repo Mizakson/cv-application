@@ -38,7 +38,7 @@ function Form() {
                     <input type="text" name="company" id="company"/>
                 </fieldset>
                 <fieldset className="input-field">
-                    <label htmlFor="responsibilities">Responsibilites: </label>
+                    <label htmlFor="responsibilities">Duties: </label>
                     <textarea name="responsibilites" id="responsibilities" maxLength={100} placeholder="Oversaw testing of compound XYZ..."></textarea>
                 </fieldset>
                 <fieldset className="input-field">

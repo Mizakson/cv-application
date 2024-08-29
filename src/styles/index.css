@@ -33,6 +33,9 @@ form {
 }
 
 form > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     border: 1px solid black;
     border-radius: 2.5%;
@@ -64,4 +67,39 @@ form > section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+textarea {
+    padding: 2px;
+    font-family: inherit;
+    width: 210px;
+    height: 45px;
+    max-height: 75px;
+}
+
+label {
+    text-align: center;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 25%;
+}
+
+input {
+    width: 200px;
+}
+
+#responsibilities {
+    margin-left: 5%;
+    margin-right: 12.5%;
+}
+
+#work-date{
+    margin-left: 7.5%;
+}
+
+#study-date {
+    margin-left: 4.5%;
 }
