@@ -5,8 +5,9 @@ export function Cv() {
 
     return (
         <div className="cv-display">
-            <div id="rendered-cv"></div>
-            <button>Edit</button>
+            <div id="paper">
+            </div>
+            <button id="edit">Edit</button>
         </div>
     )
 

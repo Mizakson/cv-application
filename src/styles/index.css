@@ -117,3 +117,10 @@ fieldset {
 .blocker {
     display: none;
 }
+
+#paper {
+    width: 600px;
+    height: 700px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 10%;
+}
