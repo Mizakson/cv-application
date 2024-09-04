@@ -3,7 +3,13 @@ body {
     display: flex;
 }
 
-.left {
+#root {
+    display: flex;
+    gap: 25%;
+    min-width: auto;
+}
+
+.left, .right, .cv-display {
     display: flex;
     flex-direction: column;
     align-items: center;

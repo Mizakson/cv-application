@@ -1,6 +1,6 @@
 import { getFormData  } from "./Data"
 
-export default function Form() {
+export function Form() {
 
     const sayClicked = (e) => {
         e.preventDefault()
