@@ -1,4 +1,4 @@
-import getFormData from "./Data"
+import { getFormData  } from "./Data"
 
 export default function Form() {
 
@@ -6,7 +6,8 @@ export default function Form() {
         e.preventDefault()
         console.log("clicked")
         // document.querySelector("form").classList.toggle("blocker")
-        console.log(getFormData())
+        let data = getFormData()
+        console.log(data)
     }
 
     return (

@@ -1,4 +1,4 @@
-export default function getFormData() {
+export function getFormData() {
     return {
         name: document.querySelector("#name").value,
         email: document.querySelector("#email").value,
