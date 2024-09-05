@@ -1,13 +1,9 @@
-import { getFormData  } from "./Data"
-
 export function Form() {
 
     const sayClicked = (e) => {
         e.preventDefault()
         console.log("clicked")
         // document.querySelector("form").classList.toggle("blocker")
-        let data = getFormData()
-        console.log(data)
     }
 
     return (

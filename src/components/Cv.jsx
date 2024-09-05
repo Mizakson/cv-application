@@ -1,6 +1,3 @@
-import { Form }from "./Form";
-import { getFormData } from "./Data";
-
 export function Cv() {
 
     return (
