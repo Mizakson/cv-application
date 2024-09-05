@@ -45,8 +45,8 @@ export default function Form() {
                 <input type="text" id="work-date" placeholder="SEP 2023 - PRESENT"/>
             </div>
             <div className="input-field-wrapper">
-                <label htmlFor="responsibilities">Duties: </label>
-                <textarea type="text" placeholder="Developed feature XYZ..."/>
+                <p>Duties: </p>
+                <textarea type="text" id="responsibilites" placeholder="Developed feature XYZ..."/>
             </div>
         </fieldset>
         <button type="submit">Submit</button>
