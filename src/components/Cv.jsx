@@ -1,5 +1,8 @@
 export default function Cv() {
     return (
-        <div className="paper"></div>    
+        <div className="display">
+            <div className="paper"></div>
+            <button className="edit">Edit</button>  
+        </div>
     )
 }
