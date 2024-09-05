@@ -10,9 +10,10 @@ export default function Form() {
                 <label htmlFor="name">Name: </label>
                 <input type="text" id="name"/>
             </div>
-            <div className="input-field-wrapper"></div>
+            <div className="input-field-wrapper">
                 <label htmlFor="email">Email: </label>
                 <input type="email" id="email" placeholder="example@me.com"/>
+            </div>
             <div className="input-field-wrapper">
                 <label htmlFor="phone">Phone: </label>
                 <input type="tel" id='phone' placeholder="111-222-3333"/>
@@ -44,7 +45,7 @@ export default function Form() {
                 <input type="text" id="work-date" placeholder="SEP 2023 - PRESENT"/>
             </div>
             <div className="input-field-wrapper">
-                <label htmlFor="responsibilities">Responsibilities: </label>
+                <label htmlFor="responsibilities">Duties: </label>
                 <textarea type="text" placeholder="Developed feature XYZ..."/>
             </div>
 
