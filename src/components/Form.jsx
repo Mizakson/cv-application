@@ -1,10 +1,4 @@
-export function Form() {
-
-    const sayClicked = (e) => {
-        e.preventDefault()
-        console.log("clicked")
-        // document.querySelector("form").classList.toggle("blocker")
-    }
+export function Form({ isActive, onClick }) {
 
     return (
         <form>
@@ -53,7 +47,7 @@ export function Form() {
                     <input type="text" name="work-date" id="work-date" placeholder="MAR 2020 - PRESENT"/>
                 </fieldset>
             </section>
-            <button type="submit" onClick={sayClicked}>Submit</button>
+            <button type="submit">Submit</button>
         </form>
     )
 }

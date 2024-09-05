@@ -6,16 +6,21 @@ import { Form } from './components/Form.jsx';
 import { Cv } from './components/Cv.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <>
       <div className='left'>
         <Header />
-        <Form />
+        <Form isActive={setActiveIndex === 0}
+        onClick={console.log(`active: ${activeIndex}`)}
+        />
       </div>
       <div className="right">
-        <Cv />
+        <Cv isActive={setActiveIndex === 1}
+        onClick={console.log(`active: ${activeIndex}`)}
+        />
       </div>
     </>
   )
