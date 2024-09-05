@@ -9,10 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="left">
       <Description />
-      </div>
-      <div className="right"></div>
     </>
   )
 }
