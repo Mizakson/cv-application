@@ -2,6 +2,7 @@
 import './styles/App.css'
 import './styles/index.css'
 import Description from './components/Description'
+import Form from './components/Form'
 
 function App() {
   
@@ -11,7 +12,7 @@ function App() {
     <>
       <Description />
       <div className="wrapper">
-        
+        <Form />
       </div>
     </>
   )
