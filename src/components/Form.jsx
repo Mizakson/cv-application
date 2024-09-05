@@ -48,8 +48,8 @@ export default function Form() {
                 <label htmlFor="responsibilities">Duties: </label>
                 <textarea type="text" placeholder="Developed feature XYZ..."/>
             </div>
-
         </fieldset>
+        <button type="submit">Submit</button>
         </div>
     )
 
