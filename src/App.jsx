@@ -6,15 +6,29 @@ import Form from './components/Form'
 import Cv from './components/Cv'
 
 function App() {
-  
-  // const [activeIndex, setActiveIndex] = useState(0);
+
+  // const [isActive, setIsActive] = useState()
+
+  function handleSubmit(e) {
+      e.preventDefault()
+      document.querySelector("form").classList.toggle("covered")
+      document.querySelector(".display").classList.toggle("covered")
+  }
+
+  function handleClick(e) { 
+      e.preventDefault()
+      document.querySelector("form").classList.toggle("covered")
+      document.querySelector(".display").classList.toggle("covered")
+  }
+
+
 
   return (
     <>
       <Description />
       <div className="wrapper">
-        <Form />
-        <Cv />
+        <Form onSubmit={handleSubmit}/>
+        <Cv onClick={handleClick}/>
       </div>
     </>
   )

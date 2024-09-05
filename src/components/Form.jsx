@@ -1,10 +1,10 @@
-export default function Form() {
+export default function Form({ onSubmit }) {
 
     const titles = ['General Info', 'Education', 'Experience']
 
     return (
-        <div id="forms">
-        <fieldset>
+    <form onSubmit={onSubmit}>
+       <fieldset>
             <legend>{titles[0]}</legend>
             <div className="input-field-wrapper">
                 <label htmlFor="name">Name: </label>
@@ -45,12 +45,13 @@ export default function Form() {
                 <input type="text" id="work-date" placeholder="SEP 2023 - PRESENT"/>
             </div>
             <div className="input-field-wrapper">
-                <p>Duties: </p>
-                <textarea type="text" id="responsibilites" placeholder="Developed feature XYZ..."/>
+                <label htmlFor="responsibilities">Duties: </label>
+                <input type="text" id="responsibilities" placeholder="Developed feature XYZ..."/>
             </div>
         </fieldset>
         <button type="submit">Submit</button>
-        </div>
+        </form>
+ 
     )
 
 }
