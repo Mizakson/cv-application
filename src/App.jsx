@@ -10,6 +10,9 @@ function App() {
   return (
     <>
       <Description />
+      <div className="wrapper">
+        
+      </div>
     </>
   )
 }
