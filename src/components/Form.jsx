@@ -59,11 +59,11 @@ function Form() {
                     </div>
                     <div className='field'>
                         <label htmlFor='date-of-work'>Date: </label>
-                        <input type='text' name='date-of-work' id='date-of-work'/>
+                        <input type='text' name='date-of-work' id='date-of-work' placeholder='JAN 2021 - PRESENT'/>
                     </div>
                     <div className='field'>
                         <label htmlFor='responsibilities'>Responsibilities: </label>
-                        <input type='text' maxLength={75} name='responsibilities' id='responsibilities'/>
+                        <input type='text' maxLength={75} name='responsibilities' id='responsibilities' placeholder='Oversaw project XYZ'/>
                     </div>
                 </fieldset>
                 <button type='submit'>Submit</button>
