@@ -48,7 +48,7 @@ function Form() {
                     </div>
                     <div className='field'>
                         <label htmlFor='date-of-study'>Date: </label>
-                        <input type='text' name='name' id='name' placeholder='AUG 2008 - MAY 2012'/>
+                        <input type='text' name='date-of-study' id='date-of-study' placeholder='AUG 2008 - MAY 2012'/>
                     </div>
                 </fieldset>
                 <fieldset>
