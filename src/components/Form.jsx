@@ -20,7 +20,27 @@ function Form() {
 
     return (
         <div className='display'>
-            <form></form>
+            <form>
+                <fieldset>
+                    <legend>General Info</legend>
+                    <div className="field"></div>
+                    <div className="field"></div>
+                    <div className="field"></div>
+                </fieldset>
+                <fieldset>
+                    <legend>Education</legend>
+                    <div className="field"></div>
+                    <div className="field"></div>
+                    <div className="field"></div>
+                </fieldset>
+                <fieldset>
+                    <legend>Work Experience</legend>
+                    <div className="field"></div>
+                    <div className="field"></div>
+                    <div className="field"></div>
+                </fieldset>
+                <button type="submit"></button>
+            </form>
             <div className="cv"></div>
         </div>
 
