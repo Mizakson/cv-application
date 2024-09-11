@@ -7,3 +7,5 @@ In this project I learned...
 - How to use the useState hook
 - React project directory/file structure
 - Use and import multiple react components
+
+[live preview](https://ubiquitous-biscuit-125322.netlify.app/)
