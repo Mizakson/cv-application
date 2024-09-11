@@ -21,6 +21,7 @@ function Form() {
     return (
         <div className='display'>
             <form>
+                <div className="form-fields">
                 <fieldset>
                     <legend>General Info</legend>
                     <div className='field'>
@@ -66,11 +67,17 @@ function Form() {
                         <input type='text' maxLength={75} name='responsibilities' id='responsibilities' placeholder='Oversaw project XYZ'/>
                     </div>
                 </fieldset>
-                <button type='submit'>Submit</button>
+                </div>
+                <div className="submit-field">
+                    <button type='submit'>Submit</button>
+                </div>
+                
             </form>
             <div className='cv'>
                 <div className='paper'></div>
+                <div className="edit-field">
                 <button id='edit'>Edit</button>
+                </div>
             </div>
         </div>
 

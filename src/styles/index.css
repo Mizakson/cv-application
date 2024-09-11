@@ -23,11 +23,16 @@ header {
     gap: 10%;
 }
 
-form {
-    display: flex;
+form, .cv {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.submit-field, .edit-field {
+    text-align: center;
 }
 
 fieldset {
@@ -46,4 +51,10 @@ fieldset {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-bottom: 2.5%;
+}
+
+.paper {
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 400px;
+    height: 500px;
 }
