@@ -65,4 +65,35 @@ fieldset {
 
 .gray-text {
     color: gray;
+    font-size: .75rem;
+    font-style: normal;
+}
+
+p {
+    font-size: .95rem;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+.paper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5%;
+    justify-content: center;
+}
+
+.title {
+    margin-left: 10%;
+}
+
+.cv-group-1, .cv-group-2 {
+    margin-left: 7.5%;
 }
