@@ -36,8 +36,18 @@ function Form() {
         document.getElementById("render-jobTitle").innerText = formData.jobTitle
         document.getElementById("render-dateOfWork").innerText = formData.dateOfWork
         document.getElementById("werer").innerText = formData.responsibilities
-        document.querySelectorAll(".inactive")[1].classList.remove('inactive')
-        document.querySelectorAll(".inactive")[0].classList.remove('inactive')
+
+
+        if (document.querySelectorAll(".inactive").length > 0) {
+            document.querySelectorAll(".inactive")[1].classList.remove('inactive')
+            document.querySelectorAll(".inactive")[0].classList.remove('inactive')
+        }
+
+        else {
+            console.log("edit finalized...")
+            console.log("re-rendering...")
+        }
+        
     }
 
     return (

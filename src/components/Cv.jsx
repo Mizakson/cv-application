@@ -1,4 +1,11 @@
 function Cv() {
+
+    const onEditHandler = (event) => {
+        event.preventDefault()
+        console.log('edit me')
+        alert("Re-enter and re-submit data to finalize edit...")
+    }
+
     return(
         <div className='cv'>
         <div className='paper'>
@@ -28,7 +35,8 @@ function Cv() {
             </div>
         </div>
         <div className="edit-field">
-        <button id='edit'>Edit</button>
+        <button id='edit' onClick={onEditHandler}>Edit</button>
+        <p className="notification"></p>
         </div>
     </div>
     )
