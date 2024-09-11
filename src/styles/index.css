@@ -5,6 +5,7 @@
 input {
     width: 230px;
     margin-left: 5%;
+    font-family: inherit;
 }
 
 header {
