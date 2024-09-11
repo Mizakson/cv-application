@@ -2,8 +2,7 @@
 import './styles/App.css'
 import './styles/index.css'
 import Description from './components/Description'
-// import Form from './components/Form'
-// import Cv from './components/Cv'
+import { Form } from './components/Form'
 
 function App() {
 
@@ -14,6 +13,7 @@ function App() {
   return (
     <>
       <Description />
+      <Form />
     </>
   )
 }
