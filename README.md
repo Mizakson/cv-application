@@ -8,4 +8,4 @@ In this project I learned...
 - React project directory/file structure
 - Use and import multiple react components
 
-[Live Preview]([https://ubiquitous-biscuit-125322.netlify.app/](https://mizakson-cv-application.netlify.app/))
+[Live Preview](https://mizakson-cv-application.netlify.app/)
